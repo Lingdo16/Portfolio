@@ -332,7 +332,7 @@ section{
         color: var(--text-color);
     }
     .navbar .active{
-        display: block;
+        display: flex;
     }
     .home{
         flex-direction: column-reverse;
