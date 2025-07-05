@@ -324,6 +324,7 @@ section{
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
         border-bottom-left-radius: 2rem;
+        display: none;
     }
     .navbar a{
         display: block;
@@ -331,7 +332,7 @@ section{
         margin: 3rem 0;
         color: var(--text-color);
     }
-    .navbar .active{
+    .navbar.active{
         display: flex;
     }
     .home{
